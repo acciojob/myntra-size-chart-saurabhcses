@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+table{
+	border: 1px solid #000;
+	border-collapse:collapse
+}
+tr,td{
+	border: 1px solid #000;
+}
+th{
+	border: 1px solid #000;
+	background:red
+}
