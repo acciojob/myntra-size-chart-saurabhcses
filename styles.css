@@ -10,21 +10,26 @@ h2 {
 
 table {
     border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
 }
 
 th, td {
     border: 1px solid #000;
+    padding: 8px;
 }
 
 thead th {
-    background-color: #b22222; 
+    background-color: #b22222; /* dark red */
     color: white;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #f2baba; 
+    background-color: #f2baba; /* light red shade */
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f7e5e5; 
+    background-color: #f7e5e5; /* very light red shade */
 }
