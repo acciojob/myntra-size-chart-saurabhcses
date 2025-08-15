@@ -1,13 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
 
-/* Your CSS Code here. */
-table{
-	border: 1px solid #000;
-	border-collapse:collapse
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
-tr,td{
-	border: 1px solid #000;
+
+table {
+    border-collapse: collapse;
 }
-th{
-	border: 1px solid #000;
-	background:red
+
+th, td {
+    border: 1px solid #000;
+}
+
+thead th {
+    background-color: #b22222; 
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2baba; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f7e5e5; 
 }
